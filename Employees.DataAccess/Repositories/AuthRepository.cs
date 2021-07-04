@@ -3,7 +3,6 @@ using Employees.Models.Generics;
 using Microsoft.Extensions.Configuration;
 using Microsoft.IdentityModel.Tokens;
 using System;
-using System.Collections.Generic;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
@@ -45,9 +44,9 @@ namespace Employees.DataAccess.Repositories
         {
             LoginModel user = null;
 
-            if (login.Username == "freecode")
+            if (login.Username == _configuration["UserName"])
             {
-                user = new LoginModel { Username = "freecode", EmailAddress = "freecode@gmail.com" };
+                user = new LoginModel { Username = _configuration["UserName"], EmailAddress = _configuration["UserEmail"] };
             }
             return user;
         }

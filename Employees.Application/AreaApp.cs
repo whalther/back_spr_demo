@@ -3,9 +3,7 @@ using Employees.Domain.Abstractions;
 using Employees.Domain.Services;
 using Employees.Models.Entities;
 using Microsoft.Extensions.Configuration;
-using System;
 using System.Collections.Generic;
-using System.Text;
 
 namespace Employees.Application
 {

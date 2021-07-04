@@ -3,9 +3,7 @@ using Employees.DataAccess.Models.Tables;
 using Employees.Domain.Abstractions;
 using Employees.Models.Entities;
 using Microsoft.Extensions.Configuration;
-using System;
 using System.Collections.Generic;
-using System.Text;
 using Microsoft.EntityFrameworkCore;
 using System.Linq;
 

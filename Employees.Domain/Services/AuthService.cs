@@ -1,8 +1,5 @@
 ﻿using Employees.Domain.Abstractions;
 using Employees.Models.Generics;
-using System;
-using System.Collections.Generic;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace Employees.Domain.Services

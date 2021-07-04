@@ -1,8 +1,6 @@
 using Employees.DataAccess.Test.MockRepositories;
 using Employees.Domain.Abstractions;
 using Employees.Domain.Services;
-using Employees.Models.Entities;
-using System;
 using Xunit;
 
 namespace Employees.DataAccess.Test
@@ -21,60 +19,18 @@ namespace Employees.DataAccess.Test
             Assert.NotNull(result);
         }
         /*[Fact]
-        public void CreateJobMockTest()
-        {
-            //Arrange
-            IEmployee jobRepo = new JobCRUDRepositoryMock();
-            EmployeesService jobService = new EmployeesService();
-            EmployeesInfo jobInfo = new EmployeesInfo()
-            {
-                JobNumber = 1,
-                JobTitlePosition = "Data Scientist",
-                JobDescription = "A data scientist is a professional responsible for collecting, analyzing and interpreting extremely large amounts of data.",
-                CreatedAt = DateTime.Now,
-                ExpiresAt = DateTime.Now.AddDays(3)
-            };
-            //Act
-            EmployeesInfo result = jobService.CreateJob(jobRepo, jobInfo);
-            //Assert
+        public void CreateJobEmployeeTest()
+        {      
             Assert.NotNull(result);
         }
         [Fact]
-        public void UpdateJobMockTest()
+        public void UpdateEmployeeMockTest()
         {
-            //Arrange
-            IEmployee jobRepo = new JobCRUDRepositoryMock();
-            EmployeesService jobService = new EmployeesService();
-            EmployeesInfo jobInfo = new EmployeesInfo()
-            {
-                JobNumber = 2,
-                JobTitlePosition = "Software Developer",
-                JobDescription = "A software developer is a company or person that creates software - either completely, or with other companies or people.",
-                CreatedAt = DateTime.Now,
-                ExpiresAt = DateTime.Now.AddDays(3)
-            };
-            //Act
-            EmployeesInfo result = jobService.UpdateJob(jobRepo, jobInfo);
-            //Assert
             Assert.NotNull(result);
         }
         [Fact]
-        public void DeleteJobMockTest()
-        {
-            //Arrange
-            IEmployee jobRepo = new JobCRUDRepositoryMock();
-            EmployeesService jobService = new EmployeesService();
-            EmployeesInfo jobInfo = new EmployeesInfo()
-            {
-                JobNumber = 3,
-                JobTitlePosition = " Information Security Analyst",
-                JobDescription = "Information security analysts design and implement security measures to protect an organization's computer networks and systems.",
-                CreatedAt = DateTime.Now,
-                ExpiresAt = DateTime.Now.AddDays(3)
-            };
-            //Act
-            EmployeesInfo result = jobService.DeleteJob(jobRepo, jobInfo);
-            //Assert
+        public void DeleteEmployeeMockTest()
+        {   
             Assert.NotNull(result);
         }*/
     }

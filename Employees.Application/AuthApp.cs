@@ -3,9 +3,6 @@ using Employees.Domain.Abstractions;
 using Employees.Domain.Services;
 using Employees.Models.Generics;
 using Microsoft.Extensions.Configuration;
-using System;
-using System.Collections.Generic;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace Employees.Application
