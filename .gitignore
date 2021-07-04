@@ -1,0 +1,18 @@
+﻿################################################################################
+# Este archivo .gitignore ha sido creado automáticamente por Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/JobBoardCRUD/v16/.suo
+/JobBoardCRUD/bin/Debug/netcoreapp3.1
+/JobBoardCRUD/obj
+/JobBoardCRUD.Application/obj
+/JobBoardCRUD.Application/bin/Debug/netcoreapp3.1
+/JobBoardCRUD.DataAccess/bin/Debug/netcoreapp3.1
+/JobBoardCRUD.DataAccess/obj
+/JobBoardCRUD.Domain/bin/Debug/netcoreapp3.1
+/JobBoardCRUD.Domain/obj
+/JobBoardCRUD/bin/Release/netcoreapp3.1
+/JobBoardCRUD.DataAccess/bin/Release/netcoreapp3.1
+/JobBoardCRUD.Domain/bin/Release/netcoreapp3.1
+/JobBoardCRUD.Application/bin/Release/netcoreapp3.1
+/JobBoardCRUD.Models/bin/Release/netcoreapp3.1
